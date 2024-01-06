@@ -8,7 +8,7 @@ const Project = () => {
       <div className="pt-[60px]" id="project">
         <div className="text-center">
           <span className="  text-[30px] r uppercase text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
-            my Project
+            my Projects
           </span>
         </div>
 
