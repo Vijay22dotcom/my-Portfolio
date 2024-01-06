@@ -2,26 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.border-gradient {
+    border-radius: 5px !important ;
+    background  : linear-gradient(#030014, #030014) padding-box, linear-gradient(to right, #6B46C1, #38B2AC)  border-box;
+    border-image-slice: 1;
+    border: 2px solid  transparent;
+
+    
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+.border-gradient:hover{
+    color: linear-gradient(to right, #6B46C1, #38B2AC) ;
+}  
