@@ -37,7 +37,8 @@ const Footer = () => {
 
         <div className="mt-4">
           <p className="text-sm">
-            Let's collaborate on innovative projects. Feel free to reach out!
+            Let&apos;s collaborate on innovative projects. Feel free to reach
+            out!
           </p>
         </div>
 

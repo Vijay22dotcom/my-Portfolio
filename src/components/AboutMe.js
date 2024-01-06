@@ -11,7 +11,7 @@ const AboutMePage = () => {
       <main className=" mx-auto mt-8 px-[200px] max-[800px]:px-[100px] max-[500px]:px-[50px]  text-white rounded-md shadow-md">
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-4">
-            Hi, I'm{" "}
+            Hi, I&apos;m
             <span className="capitalize text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
               vijay rajpara
             </span>

@@ -26,6 +26,7 @@ const Skill = () => {
                 width={image.width}
                 height={image.height}
                 index={index}
+                alt={image.alt}
               />
             </div>
           ))}
