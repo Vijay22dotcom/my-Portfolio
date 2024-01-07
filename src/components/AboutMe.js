@@ -55,7 +55,7 @@ const AboutMePage = () => {
           <ul className="list-disc pl-6 mb-4">
             <li>
               Email:{" "}
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:vijay22rajpara@gmail.com">
                 vijay22rajpara@gmail.com
               </a>
             </li>
