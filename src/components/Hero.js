@@ -1,10 +1,18 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect } from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import img2 from "../../public/programer1.png";
 
 const Hero = () => {
+  const [text] = useTypewriter({
+    words: ["web Devloper", "MERN Devloper "],
+    loop: {},
+    typeSpeed: 120,
+  });
+
+  // console.log(text);
   return (
     <>
       <div
@@ -18,7 +26,7 @@ const Hero = () => {
           <h3 className="uppercase ">
             a {/* if you want animation so add text-effect */}
             <span className="  text-effect text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
-              Web Devloper
+              {text}
             </span>
           </h3>
           <p className="text-lg text-gray-400 my-5 max-w-[600px]">
